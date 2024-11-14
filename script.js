@@ -4,7 +4,7 @@ let interval;
 let boilTime = 60;
 
 const mashPrompts = [
-    { time: 110, message: "PH Test" },
+    { time: 119, message: "PH Test" },
     { time: 75, message: "Recirc" },
     { time: 60, message: "Start sparge, loiter and first sample" },
     { time: 40, message: "Second sample, turn elements on" },
