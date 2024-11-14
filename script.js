@@ -111,6 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
         gainNode.gain.linearRampToValueAtTime(0, audioContext.currentTime + 2);
 
         oscillator.start(audioContext.currentTime);
-        oscillator.stop(audioContext.currentTime + 0.2);
+        oscillator.stop(audioContext.currentTime + 2);
     }
 });
