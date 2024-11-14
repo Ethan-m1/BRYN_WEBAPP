@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewer's Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Brewer's Timer</h1>
+        <div id="boilTimeSelection">
+            <h2>Select Boil Time:</h2>
+            <div class="radio-group">
+                <label class="radio">
+                    <input type="radio" name="boilTime" value="60" checked>
+                    <span class="radio-custom"></span>
+                    60 minutes
+                </label>
+                <label class="radio">
+                    <input type="radio" name="boilTime" value="90">
+                    <span class="radio-custom"></span>
+                    90 minutes
+                </label>
+            </div>
+        </div>
+        <div id="timerDisplay">
+            <h2 id="timerState">Idle</h2>
+            <div id="time">00:00:00</div>
+        </div>
+        <div id="promptDisplay"></div>
+        <button id="startMashButton">Start Mash Timer</button>
+        <button id="startBoilButton" style="display: none;">Start Boil Timer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
